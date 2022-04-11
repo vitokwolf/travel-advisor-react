@@ -7,6 +7,27 @@ import List from './components/List/List'
 import Map from './components/Map/Map'
 
 const App = () => {
+  const [places, setPlaces] = useState([])
+  const [coordinates, setCoordinates] = useState({})
+  const [bounds, setBounds] = useState({})
+
+  // find user's current location
+  useEffect(() => {
+    navigator.geolocation.getCurrentPosition(
+      ({ coords: { latitude, longitude } }) => {
+        setCoordinates({ lat: latitude, lng: longitude })
+      },
+    )
+  }, [])
+
+  // make the api call
+  useEffect(() => {
+    getPlacesData(bounds.sw, bounds.ne).then((data) => {
+      console.log(data)
+      setPlaces(data)
+    })
+  }, [coordinates, bounds])
+
   return (
     <>
       <CssBaseline />
@@ -16,7 +37,11 @@ const App = () => {
           <List />
         </Grid>
         <Grid item xs={12} md={8}>
-          <Map />
+          <Map
+            setCoordinates={setCoordinates}
+            setBounds={setBounds}
+            coordinates={coordinates}
+          ></Map>
         </Grid>
       </Grid>
     </>
