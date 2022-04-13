@@ -20,7 +20,7 @@ const PlaceDetails = ({ place, selected, refProp }) => {
 
   if (selected)
     refProp?.current?.scrollIntoView({ behavior: 'smooth', block: 'start' })
-  // console.log(place)
+
   return (
     <Card elevation={6}>
       <CardMedia
@@ -37,12 +37,9 @@ const PlaceDetails = ({ place, selected, refProp }) => {
           {place.name}
         </Typography>
         <Box display="flex" justifyContent="space-between">
-          <Rating size="small" value={Number(place.rating)} readOnly />
+          <Rating value={Number(place.rating)} readOnly />
           <Typography variant="subtitle1">
             out of {place.num_reviews} reviews
-          </Typography>
-          <Typography gutterBottom variant="subtitle1">
-            {place.price_level}
           </Typography>
         </Box>
         <Box display="flex" justifyContent="space-between">
