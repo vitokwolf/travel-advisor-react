@@ -2,7 +2,7 @@
 
 ## Description
 
-The purpose of this application is to provide the User with points of interset(restaurants, hotels, etc.) at the desired location. For interactivity, the app provides a search box with autocomplete functionality, filter POI by type and ratings, links to homepage of POI and Travel Advisor website for reviews. The app also adds current weather icons on the Google map for better planning of the day.
+The purpose of this application is to provide the User with points of interests(restaurants, hotels, etc.) at the desired location. For interactivity, the app provides a search box with autocomplete functionality, filter POI by type and ratings, links to homepage of POI and Travel Advisor website for reviews. The app also adds current weather icons on the Google map for better planning of the day.
 
 ## Table of Contents
 
