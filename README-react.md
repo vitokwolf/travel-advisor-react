@@ -1,39 +1,5 @@
-# Travel Point
+# Getting Started with Create React App
 
-## Description
-
-The purpose of this application is to provide the User with points of interset(restaurants, hotels, etc.) at the desired location. For interactivity, the app provides a search box with autocomplete functionality, filter POI by type and ratings, links to homepage of POI and Travel Advisor website for reviews. The app also adds current weather icons on the Google map for better planning of the day.
-
-## Table of Contents
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Technologies](#technologies)
-- [Contact](#contact)
-
-![Screenshot](./assets/travelpoint.png)
-
-`Live:` https://travelpoint.netlify.app/
-
-## Installation
-
-No installation needed, please follow the link for live app.
-
-## Usage
-
-At the first visit the app will use the browser location to load the area. The autocomplete search will help the User to find the desired location. By clicking any results from the map, the location will be selected and scrolled onto on the search result located on the left side. There the User will find information about the place, contact information, homepage and link to travel advisor for reviews.
-
-## Technologies
-
-- React
-- Axios
-- Material-UI
-- Google Maps Api
-- OpenWeather Api
-
-## Development
-
-```
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -73,9 +39,32 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-```
+## Learn More
 
-## Contact
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-- GitHub: https://github.com/vitokwolf
-- Email: victor.lupascu.1985@gmail.com
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
